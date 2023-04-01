@@ -1,0 +1,35 @@
+@keyframes background {
+    0% {
+        background-color: #FFFFFF;
+        color: #FFFFFF;
+    }
+    50% {
+        background-color: #909092;
+        color: #909092;
+    }
+    100% {
+        background-color: #202124;
+        color: #FFFFFF;
+    }
+}
+
+body {
+    background-color: #202124;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: background;
+}
+
+#content {
+    font-size: 10vw;
+}

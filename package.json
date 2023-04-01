@@ -1,0 +1,12 @@
+{
+  "name": "vitrine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:desaintvincent/vitrine.git",
+  "author": "thomas <destvincent@hotmail.fr>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "echo nothing yet"
+  }
+}
